@@ -10,23 +10,17 @@
     <%= javascript_importmap_tags %>
   </head>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="https://www.linkedin.com/in/michael-w-parisi/">Michael Parisi</a>
-        
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="/main/index">Home</a>
-            <a class="nav-link" href="/tasks">Tasks</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    
   </header>
 
 
   <body>
-    <%= yield %>
+    <div>
+      <%= render partial: "shared/navbar" %>
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 
   <footer>
