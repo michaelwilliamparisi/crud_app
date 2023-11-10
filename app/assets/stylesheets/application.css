@@ -37,7 +37,11 @@ body {
   footer {
     background-color: #979929;
     color: #fff;
-    text-align: right;
+    text-align: left;
     padding: 10px;
+    bottom: 0%;
+    height: 10;
+    position: fixed;
+    width: 100%;
   }
   /* Add more styles as needed */
