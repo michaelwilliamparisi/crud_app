@@ -2,6 +2,9 @@
     <h1>Hello World</h1>
 </div>
 
-<div>
-  <%= link_to "Show Tasks", tasks_path %>
-</div>
+<body>
+  <div class="container">
+    <%= link_to "Show Tasks", tasks_path %>
+    <%= render partial: "shared/aboutCard"%>
+  </div>
+</body>
